@@ -1,0 +1,37 @@
+.site{
+  min-height:100vh;
+  margin-bottom:-140px;
+}
+
+footer, .minSite {
+  height:140px;
+}
+
+.imgFB, .imgTwitter{
+  height:45px;
+  
+}
+
+.imgYoutube {
+  height:25px;
+}
+
+
+@media only screen and (max-width:720px){
+  .site {
+      min-height:100vh;
+      margin-bottom:-120px;
+  }
+  
+  footer, .minSite {
+      height:120px;
+  }
+
+  .imgFB, .imgTwitter{
+      height:40px;
+  }
+  
+  .imgYoutube {
+      height:30px;
+  }
+}
